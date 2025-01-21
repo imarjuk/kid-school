@@ -371,5 +371,47 @@ h3{
 
         width: 100%;
     }
- 
+
+    /* Standard Curriculum */
+
+    .section-header-title{
+        font-size: 1.5rem;
+    }
+    .curriculum-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 28px;
+        margin: 0 140px;
+    }
+
+    /* <!-- our stories --> */
+
+    .stories-left{
+        display: none;
+
+    }
+
+    .stories-right-container{
+        background-color: white;
+        width: 170px;
+        font-size: 1rem;
+        font-weight: 300;
+        border-radius: 16px;
+    }
+    .story-right-img{
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        width: 170px;
+    }
+    
+
+    /* footer-content */
+
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+
+    }
+
 }
